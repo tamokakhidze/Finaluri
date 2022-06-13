@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  
+  .header {
+    padding: 60px;
+    text-align: center;
+    background-image: url("cover.jpg");
+    color: white;
+  }
+  
+  
+  .menu {
+    display: flex;
+    background-color: rgb(228, 11, 11);
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 65px;
+    text-align: center;
+    align-items: center;
+    
+  }
+  
+
+  .menu a {
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+    text-align: center;
+    height: 65px;
+  }
+  
+
+  .menu a:hover {
+    background-color: #15151e;
+    color: white;
+  }
+  
+
+  .main {  
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("standing-cover.jpg");
+  }
+  
+
+  
+ 
+  .right {
+    flex: 70%;
+    background-color: white;
+    padding: 10px;
+  }
+
+
+  
+
+  .img {
+    background-color: #15151e;
+    width: 100%;
+    margin-bottom: 4px;
+  }
+  
+
+  .footer {
+    padding: 10px;
+    text-align: center;
+    
+  }
+  
+ @media screen and (max-width: 500px) {
+    .row, .menu, .fakeimg {   
+      flex-direction: column;
+    }
+  }
+
+
+  .topimage {
+      left: 0;
+      right: 0;
+      
+  }
+

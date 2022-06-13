@@ -1,0 +1,112 @@
+input {
+    width: 350px;
+    height: 35px;
+    border-radius: 10px;
+    border: solid 1px white;
+    background: rgb(11, 11, 17);
+    padding: 20px;
+    margin-top: 10px;
+    color: white;
+    background-color: transparent;
+    
+    
+}
+
+.regist-div-main {  
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://wallpaperaccess.com/full/342804.jpg");
+    height: 700px;
+    
+
+  }
+
+.right {
+    flex: 20%;
+    background-color:none;
+    padding: 0px;
+    margin: auto;
+    justify-content: center;
+    
+}
+* {
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  .header {
+    padding: 60px;
+    text-align: center;
+    background-image: url("cover.jpg");
+    color: white;
+  }
+  
+
+  .menu {
+    display: flex;
+    background-color: rgb(228, 11, 11);
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 65px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .menu a {
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+    height: 65px;
+    text-align: center;
+    
+    
+  }
+  
+  .menu a:hover {
+    background-color: #15151e;
+    color: white;
+  }
+
+.registration-button {
+    width: 350px;
+    height: 35px;
+    border-radius: 50px;
+    border: solid 1px white;
+    background: rgb(11, 11, 17);
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    background: transparent;
+    
+}
+
+.img {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 4px;
+}
+
+.social {
+  width: 100px;
+  height: 70px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  color: black;
+
+}
+
+@media screen and (max-width: 500px) {
+  .regist-div-main, .menu {   
+    flex-direction: column;
+  }
+}

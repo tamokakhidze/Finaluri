@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+
+    <div class="menu">
+        <a href="main.html">Main</a>
+        <a href="calendar.html">Calendar</a>
+        <a href="contact.html">Contact</a>
+        <a href="authorisation.html">Sign in</a>
+        <a href="registration.html">Sign up</a>
+        <a href="standings.html">Positions</a>
+        <a href="galley.html">Gallery</a>
+      
+      
+      </div>
+    <div class="regist-div-main">
+        <div class="right">
+    <br><br><br><br><br><br>
+   
+    <br><br><br><br>
+    <img src="f11.png" alt="" style="width:200px; height: 50px; margin-left: 75px;"><br>
+    <input type="text" placeholder="Email"> <br>
+  
+    <!---<input type="text" placeholder="პაროლი"><br>-->
+    <input type="password" value="tamo123" id="pass"><br><br>
+    <input type="checkbox" onclick="hideorshow()" style="width: 15px; height: 15px;">
+    <label for="" style="color: white; font-size: small;">Show/hide password</label>
+
+
+    <br> <br>
+    <button class="registration-button" style="margin: left 80px; ;">Sign in</button>
+</div>
+    
+
+   
+</div>
+<script>
+function hideorshow() {
+  var password = document.getElementById("pass");
+  if (password.type === "password") {
+    password.type = "text";
+  } else {
+    password.type = "password";
+  }
+}
+</script>
+
+
+
+
+
+    
+</body>
+</html>

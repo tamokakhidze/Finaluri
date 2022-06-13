@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .header {
+    text-align: center;
+    /*background-image: url("cover.jpg");*/
+    color: white;
+  }
+  
+
+  .menu {
+    display: flex;
+    background-color: rgb(228, 11, 11);
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 65px;
+    text-align: center;
+    align-items: center;
+  }
+  
+
+  .menu a {
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+    text-align: center;
+    height: 65px;
+  }
+  
+  .menu a:hover {
+    background-color: #15151e;
+    color: white;
+  }
+  
+  /* mtavari */
+  .main {  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  
+
+  .left {
+    flex: 50%;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .right {
+    flex: 50%;
+    background-color: white;
+    padding: 10px;
+    /*background-image: url("https://wallpaper.dog/large/20502166.jpg");*/
+    
+  }
+  
+  .img {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 4px;
+    
+    
+    
+  }
+
+.newsdiv {
+  border: none;
+}
+
+  .newsdiv:hover {
+    transform: scale(1.5);
+  }
+
+  .left video:hover {
+    transform: scale(1.2); 
+  }
+  
+
+  .footer {
+    padding: 10px;
+    text-align: center;
+    
+  }
+  
+  @media screen and (max-width: 500px) {
+    .main, .menu {   
+      flex-direction: column;
+      flex: 50%;
+    }
+  }
+
+  .gp {
+    background-color: white;
+    width: 100%;
+    margin-bottom: 4px;
+    padding: 27px;
+    justify-content: center;
+  }
